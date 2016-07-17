@@ -500,7 +500,11 @@ body {
 }
 
 /* Homepage */
+<<<<<<< HEAD
 /** issues with alignment taking place here **/
+=======
+/** don't forget about align editing branch happening here **/
+>>>>>>> master
 .home {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -571,9 +575,12 @@ body {
 .home .content .soc-icon.ln {
 	background: url(img/linkedin-icon.png) no-repeat center 0;
 }
+<<<<<<< HEAD
 /** end of problems with alignment **/
 
 /* Problem Button Styling both alignment and experiments branch issue (maybe)*/
+=======
+>>>>>>> master
 .home .btn {
 	background: #ac39ac;
 	color: #fff;
