@@ -15,8 +15,8 @@ get_header(); ?>
 			<?php while ( have_posts() ): the_post(); ?>
 				<h1><?php the_title(); ?></h1>
 				<?php the_content(); ?>
-				<a href="<?php echo site_url('/blog/'); //the problem area, links to the wrong spot in my php //?>" class="btn">Front End Geek</a>
-				<a href="<?php echo site_url('/page/'); //the problem area, links to the wrong spot in my php // ?>" class="btn2"> Jewelry Geek</a>
+				<a href="<?php echo site_url('/category/front-end-geek/');?>" class="btn">Front End Geek</a>
+				<a href="<?php echo site_url('/category/jewelry-geek');?>" class="btn2"> Jewelry Geek</a>
 			<?php endwhile; ?>
 		</div>
 	</div>
