@@ -571,7 +571,6 @@ body {
 .home .content .soc-icon.ln {
 	background: url(img/linkedin-icon.png) no-repeat center 0;
 }
-/* Problem Button Styling */
 .home .btn {
 	background: #ac39ac;
 	color: #fff;
@@ -605,4 +604,3 @@ body {
 	float: left;
 	margin-bottom: 24px;
 }
-/** end align editing branch area, don't forget about it **/ 
