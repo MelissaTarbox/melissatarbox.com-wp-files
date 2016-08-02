@@ -243,13 +243,19 @@ body {
 	margin-bottom: 30px;
 	margin-left: 20px;
 }
-
+/* coming soon message styling */
 .post-entry h1 {
 	font-weight: bolder;
 	font-style:italic;
 	color: #ac39ac;
 	margin-bottom: 15px;
 }
+
+.post-entry img {
+	border: 2px solid #ac39ac;
+}
+/* end coming soon message styling */
+
 .entry-title {
 	margin: 0.25em 0;
 	font: 45px;
