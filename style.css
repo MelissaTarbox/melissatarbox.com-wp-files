@@ -569,29 +569,34 @@ body {
 	margin-top: 30px;
 	margin-left: 20px;
 }
+/* education links*/
 
 .home .content p a {
 	text-decoration: underline;
 	color: #3b3b3b;
-	margin-left: 20px;
+	margin-left: 4px;
 }
 
+/* skills list */
 .home .content ul li {
 	margin-left: 20px;
 }
+
+/* social media/contact icons*/
 
 .home .content .social-btns {
 	margin-bottom: 20px;
   display: inline;
 	margin-left: 20px;
 }
-.home .content .social-btns a {
+
+.home .content .social-btns img {
+	margin-right: 8%;
 	display: inline;
-	width: 60px;
-	height: 30px;
-	margin-right: 10px;
-	margin-left: 20px;
+	margin-left: 15px;
 }
+
+/* blog buttons */
 
 .home .btn {
 	background: #ac39ac;
