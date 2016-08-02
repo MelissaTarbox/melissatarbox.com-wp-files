@@ -424,6 +424,24 @@ body {
 .single .post-entry {
 	border-bottom: none;
 }
+
+.single .post-entry a {
+	text-decoration: none;
+	color: #150300;
+	font-weight: normal;
+}
+
+.single .post-entry h1 {
+	color: #ac39ac;
+	font-weight: bolder;
+	font-size: 20px;
+}
+.single .post-entry h4 {
+	color: #ac39ac;
+	font-weight: bolder;
+	margin-top: 35px;
+	margin-bottom: 5px;
+}
 .comments-area {
 	margin-bottom: 80px;
 	clear: both;
@@ -502,9 +520,9 @@ body {
 }
 .comments-area .comment-form input[type="submit"] {
 	background: #ac39ac;
-	width: 206px;
+	width: 130px;
 	height: 55px;
-	font: bold 1.3em/45px;
+	font-size: 16px;
 	font-family: 'Muli', sans-serif;
 	color: #fff;
 	margin: 24px 0;
