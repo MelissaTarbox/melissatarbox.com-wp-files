@@ -15,7 +15,7 @@ get_header(); ?>
 			<?php while ( have_posts() ): the_post(); ?>
 				<h1><?php the_title(); ?></h1>
 				<?php the_content(); ?>
-				<a href="<?php echo site_url('/category/front-end-geek/');?>"class="btn">Front End Geek</a>
+				<a href="<?php echo site_url('/category/front-end-geek/');?>"class="btn">Front-End Geek</a>
 				<a href="<?php echo site_url('/category/jewelry-geek/');?>" class="btn2"> Jewelry Geek</a>
 			<?php endwhile; ?>
 		</div>

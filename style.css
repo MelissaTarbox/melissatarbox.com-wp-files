@@ -241,8 +241,15 @@ body {
 	border-bottom: 1px solid #bfbfbf;
 	padding-bottom: 30px;
 	margin-bottom: 30px;
+	margin-left: 20px;
 }
 
+.post-entry h1 {
+	font-weight: bolder;
+	font-style:italic;
+	color: #ac39ac;
+	margin-bottom: 15px;
+}
 .entry-title {
 	margin: 0.25em 0;
 	font: 45px;
@@ -526,17 +533,18 @@ body {
 .home img {
 	float: left;
 	border-radius: 50%;
-	margin-right: 10%;
 }
 .home .content h1 {
 	font-size: 46px;
 	font-family: 'Playfair Display', serif;
 	font-weight: bold;
 	color:  #ac39ac;
+	margin-left: 20px;
 	margin-bottom: 30px;
 }
 .home .content h3:first-of-type {
 	padding-top: 50px;
+	margin-left: 10px;
 }
 .home .content h3 {
 	font-size: 20px;
@@ -545,42 +553,44 @@ body {
 	color:  #ac39ac;
 	margin: 10px 0px;
 	clear: both;
+	margin-left: 20px;
 }
 
 .home .content p {
 	font: 17px/1.9;
 	font-family: 'Muli', sans-serif;
-	width: 50%;
+	width: 70%;
 	float:left;
-	clear: right;
+  clear: left;
+	margin-left: 20px;
 	margin-bottom: 15px;
 }
 .home .content p:first-of-type{
 	margin-top: 30px;
+	margin-left: 20px;
 }
 
 .home .content p a {
 	text-decoration: underline;
 	color: #3b3b3b;
+	margin-left: 20px;
 }
+
+.home .content ul li {
+	margin-left: 20px;
+}
+
 .home .content .social-btns {
-	margin-bottom: 25px;
+	margin-bottom: 20px;
   display: inline;
+	margin-left: 20px;
 }
 .home .content .social-btns a {
 	display: inline;
-	width: 50px;
-	height: 26px;
-	margin-right: 8px;
-}
-.home .content .soc-icon.tw {
-	background: url(img/twitter-icon.png) no-repeat center 0;
-}
-.home .content .soc-icon.fb {
-	background: url(img/facebook-icon.png) no-repeat center 0;
-}
-.home .content .soc-icon.ln {
-	background: url(img/linkedin-icon.png) no-repeat center 0;
+	width: 60px;
+	height: 30px;
+	margin-right: 10px;
+	margin-left: 20px;
 }
 
 .home .btn {
@@ -598,6 +608,7 @@ body {
 	text-align: center;
 	margin-right: 10px;
 	float: left;
+	margin-left: 20px;
 	margin-bottom: 24px;
 }
 .home .btn2 {
@@ -614,10 +625,12 @@ body {
 	padding-top: 15px;
 	text-align: center;
 	float: left;
+	margin-left: 20px;
 	margin-bottom: 24px;
 }
 
 .alignleft {
 	display: inline;
 	float: left;
+	margin-left: 20px;
 }
