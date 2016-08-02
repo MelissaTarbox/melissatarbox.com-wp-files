@@ -536,7 +536,7 @@ body {
 	overflow: hidden;
 }
 
-.home img {
+.home .contact-image{
 	float: left;
 	border-radius: 50%;
 }
