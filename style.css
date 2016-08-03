@@ -145,7 +145,7 @@ body {
 	color: inherit;
 	font-size: 16px;
 	line-height: normal;
-	margin-left: 35px;
+	margin-left: 20px;
 	text-decoration: none;
 }
 .main-content {
@@ -249,6 +249,7 @@ body {
 	font-style:italic;
 	color: #ac39ac;
 	margin-bottom: 15px;
+	font-family: 'Playfair Display', serif;
 }
 
 .post-entry img {
@@ -270,7 +271,7 @@ body {
 	color: #ac39ac;
 }
 .entry-time {
-	color: #ac39ac;
+	color: #bfbfbf;
 	font-weight: 600;
 	font-size: 0.82em;
 }
@@ -429,23 +430,37 @@ body {
 	text-decoration: none;
 	color: #150300;
 	font-weight: normal;
+	margin-left: 5px;
 }
 
+/* text styles for blog posts */
 .single .post-entry h1 {
 	color: #ac39ac;
 	font-weight: bolder;
 	font-size: 20px;
+	margin-left: 5px;
 }
+
 .single .post-entry h4 {
 	color: #ac39ac;
 	font-weight: bolder;
 	margin-top: 35px;
 	margin-bottom: 5px;
+	margin-left: 5px;
 }
+
+.single .post-entry p {
+	line-height: 1.5;
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+/* end text styles for blog posts*/
+
 .comments-area {
 	margin-bottom: 80px;
 	clear: both;
 	overflow: hidden;
+	margin-left: 5px;
 }
 .comments-area .comments-title {
 	border: solid #bfbfbf;
@@ -482,7 +497,7 @@ body {
 	font-weight: 600;
 }
 .comments-area .comment-reply-title {
-	color: #ac39ac;
+	color: #150300;
 	font: bold 1.176em;
 	font-family: 'Playfair Display', serif;
 	margin: 2em 0 1em;
