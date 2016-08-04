@@ -17,7 +17,7 @@
 					/
 					Posted in <?php the_category(', ') ?>
 					/
-					<?php echo get_comments_number() ?> comments
+				 <?php echo get_comments_number() ?> comments
 				</span>
 			</div>
 		</footer>

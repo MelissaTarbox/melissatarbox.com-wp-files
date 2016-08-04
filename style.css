@@ -101,6 +101,7 @@ body {
 body {
 	background: #fff;
 	border-top: 6px solid #ac39ac;
+	overflow: auto;
 	color: #3b3b3b;
 	font: 17px/1.65;
 	font-family: 'Muli', sans-serif;
@@ -145,7 +146,7 @@ body {
 	color: inherit;
 	font-size: 16px;
 	line-height: normal;
-	margin-left: 20px;
+	margin-left: 13px;
 	text-decoration: none;
 }
 .main-content {
@@ -243,6 +244,7 @@ body {
 	margin-bottom: 30px;
 	margin-left: 20px;
 }
+
 /* coming soon message styling */
 .post-entry h1 {
 	font-weight: bolder;
@@ -456,6 +458,16 @@ body {
 }
 /* end text styles for blog posts*/
 
+/* table styles */
+.single .post-entry table, th, td {
+	border: 1px solid #ac39ac;
+	padding-left: 8px;
+	padding-right: 8px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+/* comment area */
 .comments-area {
 	margin-bottom: 80px;
 	clear: both;
